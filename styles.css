@@ -1,0 +1,69 @@
+body {
+font-family: sans-serif;
+color: #333;
+}
+header{
+text-align: center;
+background: url(images/background.jpg);
+background-attachment: fixed;
+background-size: cover;
+}
+header img{
+border: 3px solid #fff;
+border-radius: 50%;
+padding: 10px;
+}
+a {
+color: #339988;
+}
+
+#about {
+background: #E9F36B;
+}
+.stacked {
+padding: 10px;
+}
+.contact {
+text-align: center;
+color: #FFF;
+background: url(images/dark_embroidery.png);
+background-repeat: none;
+background-position: center;
+}
+.contact img{
+width: 90px;
+hight: 10px;
+border-radius: 80% 5%;
+borser: none;
+}
+.contact img:hover{
+opacity: 0.5;
+}
+ul.websites {
+padding: 0;
+}
+ul.websites li {
+list-style: none;
+display: inline-block;
+}
+.websites a {
+background: #38A88F;
+padding: 10px 20px;
+color; #fff;
+text-decoration: none;
+border-radius: 5px;
+font-size: 24px;
+display: block;
+}
+.websites a:hover {
+background: #666;
+}
+p, ul, ol {
+line-height: 1.5;
+}
+ul.websites li {
+margin-bottom: 5px;
+}
+h1, h2 {
+font-family: "Indie Flower", sans-serif;
+}
